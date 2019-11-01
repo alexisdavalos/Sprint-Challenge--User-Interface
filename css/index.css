@@ -163,9 +163,10 @@ nav {
 nav a{
 	margin: 1.5%;
 	color:black;
-	padding: 15px 15px 0px 15px;
-    border-radius:10%;
+	padding: 15px;
+    border-radius:5%;
     font-size:15px;
+    border: 3px solid white;
 }
 
 .nav-image{
@@ -174,6 +175,7 @@ nav a{
 	vertical-align: middle;
 	width: 157px;
     height: 40px;
+    margin-bottom:15px;
     
 }
 .nav-image a{
@@ -184,6 +186,17 @@ nav a{
 .nav-image a:hover{
 	background-color:transparent !important;
 }
+/* Nav Animation Styles */
+nav a:hover{
+    -webkit-animation-name: navHover;
+    -webkit-animation-duration:5s;
+}
+@keyframes navHover {
+    0%   {border-color: teal;}
+    25%  {border-color: gold;}
+    50%  {border-color: cadetblue;}
+    100% {border-color: coral;}
+  }
 
 /* Banner Image Section */
 .banner-section{
