@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,82 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My Code Starts Here*/
+a{
+	text-decoration:none;
+}
+/* Nav Styles */
+nav {
+	text-align:center;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+nav a{
+	margin: 1.5%;
+	color:black;
+	padding: 15px;
+    border-radius:10%;
+    font-size:15px;
+}
+
+.nav-image{
+	margin-left: 3%;
+	background-image: url(../img/lambda-black.png);
+	vertical-align: middle;
+	width: 157px;
+    height: 40px;
+    
+}
+.nav-image a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+.nav-image a:hover{
+	background-color:transparent !important;
+}
+
+/* Banner Image Section */
+.banner-section{
+    margin-bottom:5%;
+}
+.header-img{
+	width: 100%;
+}
+
+/* Boxes Colors */
+.boxes > :first-child{
+    background:teal;
+}
+.boxes > :nth-child(2){
+    background:gold;
+}
+.boxes > :nth-child(3){
+    background:cadetblue;
+}
+.boxes > :nth-child(4){
+    background:coral;
+}
+.boxes > :nth-child(5){
+    background:crimson;
+}
+.boxes > :nth-child(6){
+    background:forestgreen;
+}
+.boxes > :nth-child(7){
+    background:darkorchid;
+}
+.boxes > :nth-child(8){
+    background:hotpink;
+}
+.boxes > :nth-child(9){
+    background:indigo;
+}
+.boxes > :nth-child(10){
+    background:dodgerblue;
 }
