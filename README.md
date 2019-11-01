@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
     Semantic HTML is how developers give meaning to code. You structure your page layout and markup by using 
-    meaningful naming convetions so that other developers cant understand what they're looking at when they work on your code.
+    meaningful naming convetions so that other developers can understand what they're looking at when they work on your code.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
