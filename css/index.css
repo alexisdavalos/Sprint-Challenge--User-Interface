@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .container {
@@ -148,6 +148,9 @@ footer nav a {
 a{
 	text-decoration:none;
 }
+p{
+    font-size:16px;
+}
 /* Nav Styles */
 nav {
 	text-align:center;
@@ -160,7 +163,7 @@ nav {
 nav a{
 	margin: 1.5%;
 	color:black;
-	padding: 15px;
+	padding: 15px 15px 0px 15px;
     border-radius:10%;
     font-size:15px;
 }
@@ -220,4 +223,78 @@ nav a{
 }
 .boxes > :nth-child(10){
     background:dodgerblue;
+}
+
+/* About Page Styles */
+
+.about-section{
+    padding-bottom:2%;
+    border-bottom: 1px dashed black;
+}
+
+/* Box Styles */
+.box-section{
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+}
+.box{
+    width:50%;
+    
+	
+}
+
+.box-wrapper{
+	margin:5%;
+    text-align:left;
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+}
+
+.box-wrapper img{
+    width:100%;
+    margin-bottom: 3%;
+}
+
+/* Box Button */
+.box-wrapper div{
+    padding-top:15px;
+}
+.box-button{
+	display:inline-block;
+	background-color: white;
+	color: black;
+	padding: 10px 24px;
+	text-align: center;
+	border: solid 2px black;
+	margin-top:15px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/* Work Section */
+
+.work-section{
+    margin: 3% 3% 6% 3%;
+}
+
+/* Mobile Design */
+@media (max-width: 1024px){
+    .container{
+        width:100%;
+        padding: 5%;
+    }
+    .box-section{
+        flex-flow:column;
+    }
+    .box{
+        width: 100%;
+    }
+    .banner-section{
+        margin-top: 5%;
+    }
+
 }
