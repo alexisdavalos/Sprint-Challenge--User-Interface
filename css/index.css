@@ -281,6 +281,57 @@ nav a{
     margin: 3% 3% 6% 3%;
 }
 
+/* Contact Page Styles */
+.contact-top h2{
+    font-size: 25px;
+    font-weight:bold;
+}
+.contact-top{
+    margin-bottom:5%;
+    text-align:center;
+}
+.contact-section{
+    padding: 20px;
+}
+.container.contact-page{
+    background-color:#e8e8e8;
+}
+ 
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+  .form-button{
+      display:flex;
+      justify-content:center;;
+  }
+
+  .form-container {
+    border-radius: 5px;
+  } 
+
 /* Mobile Design */
 @media (max-width: 1024px){
     .container{
