@@ -181,12 +181,16 @@ nav a{
 .nav-image a{
 	display:inline-block;
 	width:100%;
-	height:100%;
+    height:100%;
+    border:transparent !important;
 }
 .nav-image a:hover{
 	background-color:transparent !important;
 }
 /* Nav Animation Styles */
+.nav-image a:hover{
+    -webkit-animation:none;
+}
 nav a:hover{
     -webkit-animation-name: navHover;
     -webkit-animation-duration:5s;
